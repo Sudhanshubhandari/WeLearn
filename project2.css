@@ -1,0 +1,463 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: rgb(237,237,238)
+    */
+}
+body{
+    background-color: rgb(227, 227, 233);
+   
+}
+.Sear{
+    display: flex;
+    background-color:white;
+    margin: 5px 18px;
+    padding: 1px 1px;
+  
+    
+
+}
+.White{
+    background-color: white;
+    display: flex;
+    border:1px solid black;
+    padding-left: 1px;
+    width: 349px;
+}
+.Searchbox{
+
+    display: flex;
+    background-color: white;
+  
+}
+.White img{
+    width: 46px;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    left: -29px;
+    top: 12px;
+    margin: -2px 50px;
+    z-index: 1;
+
+}
+#logo img{
+    
+    position: absolute;
+    right: 126px;
+    top: 4px;
+    height: 40px;
+   
+    
+ 
+}
+
+    
+
+
+
+.Sear input{
+    width: 300px;
+    height: 37px;
+    background-color: white;
+    position: relative;
+    top: 0px;
+    left: 48px;
+    border: 0px;
+
+}
+.Log{
+    position: absolute;
+    right: 23px;
+    top: 13px;
+    background-color: white;
+
+}
+.Log:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+
+}
+.Home{
+    padding-top: 20px;
+}
+
+.Home ul {
+    display: flex;
+    justify-content:center;
+    
+    list-style: none;
+    padding-top: 20px;
+}
+.Home ul li{
+    margin: 0 20px;
+    padding: 0px 15px;
+    font-size: 20px;
+}
+ 
+.Home ul li a{
+    color: white;
+    text-decoration: none;
+}
+.Home ul li a:hover{
+    color:yellow ;
+    cursor: pointer;
+}
+.h{
+    padding: 8px 12px;
+    margin: 8px 17px;
+    font-size:25px ;
+  
+
+}
+.Home img{
+    position: absolute;
+    left: 34px;
+    height: 75px;
+}
+
+.Intro img{
+    height: 32px;
+    width: 32px;
+}
+.Intro{
+    display: flex ;
+    flex-direction: column;
+     justify-content: center; 
+     text-align: center;
+    font-size: 46px;
+    height: 100%;
+    margin: 38px 10px;
+    padding: 78px 200px;
+    background-color: transparent;
+    color: white;
+}
+  
+
+
+
+.Intro::before{
+    content: "";
+    position:absolute;
+    left: 18px;
+    top:53px;
+    background: url('../project2/back.jpg') no-repeat center center/cover;
+    height: 98%;
+    width: 98%;
+    z-index: -1;
+     opacity: .89; 
+}
+.Intro button{
+    height: 35px;
+    width: 120px;
+   background-color:beige ;
+}
+.Intro button:hover{
+    background-color: black;
+     color:white ;
+     cursor: pointer;
+     box-shadow: 4px 4px 4px;
+}
+  .Intro div{
+    padding: 20px 20px;
+    /* margin: 20px 20px; */
+    color: rgb(48,60,66);
+}
+.Intro p{
+    font-size: 150px;
+}
+.Alumni{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 60px;
+   
+
+}
+#Heading
+{
+   
+   margin: 30px auto;
+    font-size: 39px; 
+    padding:2px 0px ;
+    text-align: center;
+    font-family: 'Comforter', cursive;;
+    
+    /* background-image: linear-gradient(rgb(215,178,148),white ); */
+    width:16% ;
+    font-size: 4rem;
+    
+}
+.Alumni div{
+     padding: 1% 4%;
+    /* margin: 18px 2px;  */
+    background-color: white;
+    border-radius: 7px;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    box-sizing: border-box;
+
+}
+.Alumni::before{
+    content: "";
+    position: absolute;
+    background: url('../project2/alum.jpeg') no-repeat center center/cover ;
+    height: 83%;
+    width: 98%;
+    z-index: -1;
+    opacity: .99;
+    margin: -16px 2px;
+    left: 18px;
+}
+ .topper img{
+    justify-content: center;
+    size: 44px;
+    height: 170px;
+}
+
+#about{
+    display: flex;
+    margin-top: 95px;
+    margin-left: 18px;
+    width: 98%;
+    height:450px;
+    background-color: white;
+    
+   
+    
+}
+.abo{
+    width: 46%;
+    /* height: 375px; */
+    text-align: center;
+    padding: 50px 96px;
+    box-sizing: border-box;
+    color: rgb(160, 68, 65);
+
+}
+#about img{
+     width: 100%; 
+
+    height: 450px;
+    /* padding-left: 10px; */
+     
+   
+}
+.black{
+   
+    width:54% ;
+    display: flex ;
+}
+
+
+
+
+.offer{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 3px;
+
+}
+.offer button{
+    background-color: rgb(167, 64, 64);
+    color: white;
+    width: 15%;
+    height: 10%;
+    cursor: pointer;
+}
+.offer button:hover{
+    box-shadow: 2px 2px 2px;
+}
+
+.of{
+    width:45%;
+    height: 100%;
+    position: relative;
+    margin-left: 18px;
+   
+   
+    
+}
+.Set{
+    height: 100%;
+    width: 100%;
+}
+.in{
+    background-color:rgb(18,49,50);
+    /* margin-left: 25px; */
+    width: 53%;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 60px;
+    color: white;
+    /* margin-bottom: 3px; */
+    /* margin-right: 1px; */
+    /* box-sizing: border-box; */
+    
+}
+#En{
+    height: 650px;
+
+   
+    width: 98%;
+    margin-left: 18px;
+    
+   
+    
+}
+#En::before{
+    content: "";
+    background: url('../project2/k.jpeg') no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    height: 670px;
+    width: 98%;
+
+}
+.content{
+       margin-left: 25%;
+       margin-right: 50%;
+      
+       
+       
+       width: 50%;
+       /* text-align: center; */
+       background-color: white;
+       height: 550px;
+       opacity: .79;
+     
+      
+}
+.mar{
+    height: 100%;
+    width: 90%;
+    margin:auto ;
+   /* z-index: -1; */
+
+   
+}
+.en{
+    text-align:center ;
+    font-size: 30px;
+}
+.sud{
+    display: flex;
+    justify-content: flex-start;
+}
+.fname{
+    width: 50%;
+}
+.sname{
+    width: 50%;
+}
+.sud1{
+    display: flex;
+    height: 6%;
+    
+}
+.aname{
+    width: 100%;
+    height: 72%;
+   
+  
+}
+.bname{
+    width: 100%;
+    height: 81%;
+    
+}
+.aname input{
+    width: 98%;
+    height: 100%;
+}
+.bname input{
+    margin-left: 6%;
+    width: 93%;
+    height: 93%;
+}
+.sud2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: 7%;
+}
+.sud2 input{
+    width: 100%;
+    height: 65%;
+}
+.but{
+    text-align: center;
+    justify-content: center;
+}
+
+
+.sud3{
+    width: 100%;
+    display: flex;
+    
+    height: 25%;
+}
+.sud3 textarea{
+    width: 100%;
+    height: 95%;
+
+    
+}
+.content button{
+    width: 100%;
+   height: 30px; 
+  background-color: rgb(175, 62, 62);
+  color: white;
+
+}
+.content button:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgb(177, 86, 86);;
+
+}
+.add{
+    background-color: rgb(18,49,50);
+    margin-left: 18px;
+    width: 98%;
+
+}
+.address{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 350px;
+    align-items: center;
+    
+}
+
+   
+
+.imag{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.imag img{
+    
+    width: 3%;
+    height: 2%;
+    padding: 0px 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+   
+}
+.imag  :hover{
+    
+     width: 4%;
+    height: 3%;
+     
+     
+}
