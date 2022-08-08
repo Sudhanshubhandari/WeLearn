@@ -10,9 +10,11 @@ body{
 }
 .Sear{
     display: flex;
+    width: 97.9%;
     background-color:white;
     margin: 5px 18px;
     padding: 1px 1px;
+
   
     
 
@@ -52,10 +54,6 @@ body{
  
 }
 
-    
-
-
-
 .Sear input{
     width: 300px;
     height: 37px;
@@ -68,7 +66,7 @@ body{
 }
 .Log{
     position: absolute;
-    right: 23px;
+    right: 16px;
     top: 13px;
     background-color: white;
 
@@ -76,9 +74,13 @@ body{
 .Log:hover{
     cursor: pointer;
     border: 2px solid black;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color:white;
+    font-weight: bold;
 
+}
+.link{
+    color: black;
 }
 .Home{
     padding-top: 20px;
